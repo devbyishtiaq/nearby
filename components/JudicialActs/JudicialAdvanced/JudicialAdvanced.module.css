@@ -1,0 +1,53 @@
+.container{
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.input{
+    box-sizing: border-box;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 100%;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+}
+.dropdownButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #EFEFEF;
+    width: 100%;
+    padding: 8px 10px;
+}
+.dropdownButton svg{
+    margin-left: auto;
+}
+.buttonStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 16px;
+    gap: 8px;
+    background: #339F5E;
+    border-radius: 90px;
+}
+.dropdownMenu{
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(0px, 43.6364px, 0px);
+    max-width: 50vw;
+    height: 400px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,6 @@
+.updateConsentContainer {
+  display: flex;
+  gap: 1rem;
+  margin-block: 1rem;
+  font-size: var(--d1-font-size);
+}

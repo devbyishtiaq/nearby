@@ -1,0 +1,11 @@
+.container button{
+    text-align: start;
+    font-size: 14px;
+}
+.activeCategoryStyle{
+    background: rgba(51, 159, 94, 0.08);
+    border-radius: 8px;
+}
+.arrowRight{
+    margin-left: auto;
+}

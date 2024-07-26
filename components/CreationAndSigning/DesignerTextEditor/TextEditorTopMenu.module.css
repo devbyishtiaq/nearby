@@ -1,0 +1,68 @@
+.toggleBtn {
+  color: #536c73;
+  padding: 9px 12px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.icon {
+  width: 50px;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f11d1d;
+}
+
+.folder {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #339f5e14;
+}
+
+.folderText {
+  margin: 0;
+  line-height: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #324a51;
+  text-transform: capitalize;
+}
+
+.folderSpan {
+  font-size: 8px;
+  line-height: 0;
+  font-weight: 400;
+  color: #768f97;
+}
+
+.saveBtn:hover {
+  color: #ffffff;
+  background: #339f5e;
+  border: 1px solid #339f5e;
+}
+
+.selectedFolder {
+  background-color: #339f5e14;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #f4f4f4;
+}

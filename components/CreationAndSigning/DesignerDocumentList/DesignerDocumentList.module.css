@@ -1,0 +1,15 @@
+.container {
+  background-color: white;
+  margin: 15px;
+  padding: 20px;
+}
+.accordion {
+  width: 100%;
+}
+.accordionContainer {
+  border: none;
+  border-radius: 8px;
+}
+.accordionContainer button {
+  background: rgba(51, 159, 94, 0.08);
+}

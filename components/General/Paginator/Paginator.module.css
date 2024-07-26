@@ -1,0 +1,29 @@
+
+.paginatorBase{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+}
+
+.paginatorBase li{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.paginatorBase li button{
+    padding: 8px 15px;
+    border-radius: 7px;
+    color: #667085
+}
+
+.paginatorBase li button.activePage{
+    background: rgba(51, 159, 94, 0.08);
+    border-radius: 8px;
+    color: #339F5E;
+}
+
+.paginatorBase li button:hover{
+    background-color: rgba(51, 159, 94, 0.08);
+    color: #339F5E;
+}

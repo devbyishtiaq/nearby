@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container div:first-child{
+    flex: 3;
+}
+.container div:nth-child(2){
+    flex: 1;
+    margin-left: auto;
+}
+.downloadButton{
+    padding: 8px 28px;
+    gap: 12px;
+    background: #339F5E;
+    border-radius: 80px;
+    color: white;
+}

@@ -1,0 +1,28 @@
+.container{
+    width: 25vw;
+    padding: 20px;
+}
+.dateText{
+    color: #339F5E;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.courseHeaderStyle{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.courseDescStyle{
+    color: #536C73;
+    font-size: 12px;
+}
+.tagsContainer{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.tagButton{
+    background-color: #F8F9FC;
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 10px;
+}

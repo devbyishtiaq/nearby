@@ -1,0 +1,28 @@
+{
+  "legal__design__title1": "Legal Design",
+  "legal__design__title2": "бұл құқықтық құжаттарды рәсімдеу тәсілі",
+  "legal__description": "Іс бойынша жұмыс жасай отырып, біз әрқашан құжаттарымыздың Құқықтық Дизайнның барлық үш аспектісін қамтитындығына көз жеткізуге тырысуымыз керек:",
+  "legal__description1": "Теңдесі жоқ құқықтық шеберлік",
+  "legal__description2": "Түсінікті және қысқа тіл",
+  "legal__description3": "Түсінуге оңай және жағымды презентация",
+
+  "leave__request": "Өтінім қалдыру",
+  "legal__button1": "Legal Design әзірлеу",
+  "legal__button2": "Мәтінді/құжатты инфографикаға айналдыру",
+
+  "legal__whereToUse__title": "Legal Design-ды қайда қолдануға болады? ",
+  "legal__whereToUse__tab1": "Іс жүргізу құжаттары",
+  "legal__whereToUse__tab2": "Ниеттер туралы шарт",
+  "legal__whereToUse__tab3": "Келісімшарт",
+  "legal__whereToUse__tab4": "Заңды қорытынды",
+
+  "legal__contact__small": "Legal Design үшін бізге хабарласыңыз",
+  "legal__contact__title": "Өтінім қалдыру",
+  "legal__contact__description": "Біз сіздің жобаңыз үшін тиімді және тартымды құқықтық келісімді жасауға көмектесуге дайынбыз. Келесі ақпаратты толтырыңыз:",
+
+  "legal__placeholder__name": "Аты",
+  "legal__placeholder__email": "Еmail",
+  "legal__placeholder__phone": "Телефон",
+  "legal__placeholder__comment": "Хабарлама",
+  "submit": "Жіберу"
+}

@@ -1,0 +1,92 @@
+.container{
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+}
+.inputGroup{
+    width: 300px;
+    margin-left: auto;
+}
+.inputIcon{
+    background-color: white;
+    color: #768F97;
+}
+.input{
+    border-left: none;
+    font-size: 12px;
+    color: #768F97;
+}
+.searchButton{
+    margin-right: 50px;
+    margin-left: 15px;
+}
+.theadStyle{
+    background: rgba(51, 159, 94, 0.05);
+    padding: 10px 5px;
+}
+.theadStyle th{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tbodyStyle{
+    font-size: 12px;
+    text-align: center;
+}
+.tableStyle {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tableStyle th,
+.tableStyle td {
+    width: 11.1%; /* Adjust this value to distribute width evenly across 9 columns */
+    height: 80px;
+    padding: 8px;
+    color: #536C73;
+    vertical-align: middle;
+    overflow: hidden; /* Prevent overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.loadingText{
+    font-size: 14px;
+    animation: fadeInOut 1s infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown div {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown div:hover {
+  background-color: #f0f0f0;
+}
+.buttonStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 16px;
+    gap: 8px;
+    background: #339F5E;
+    border-radius: 90px;
+}

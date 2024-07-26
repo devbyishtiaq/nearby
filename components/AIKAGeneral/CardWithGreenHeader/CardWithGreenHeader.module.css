@@ -1,0 +1,27 @@
+.container{
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+.titleContainer{
+    background-color: #339F5E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.cardContent{
+    padding: 15px;
+}
+.valueText{
+    margin-left: auto;
+    font-weight: bold;
+}
+.contentContainer{
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,7 @@
+.accordionButton button{
+    background: rgba(51, 159, 94, 0.08);
+    border-radius: 0px 8px 8px 8px;
+}
+.downloadPngText{
+    font-size: 12px;
+}

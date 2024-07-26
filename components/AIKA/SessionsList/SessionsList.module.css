@@ -1,0 +1,25 @@
+.container{
+    font-size: 12px;
+    height: 70vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.sessionsContainer{
+    height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.activeSessionContainer{
+    background: rgba(51, 159, 94, 0.08);
+}
+.warningContainer{
+    background: rgba(51, 159, 94, 0.08);
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.sessionTitleText{
+    font-size: 12px;
+}

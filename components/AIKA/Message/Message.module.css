@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    font-size: 12px;
+}
+.sentMessage{
+    background-color: #FAFAFA;
+    width: 500px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.recievedMessage{
+    background: rgba(51, 159, 94, 0.08);
+    width: 500px;
+}

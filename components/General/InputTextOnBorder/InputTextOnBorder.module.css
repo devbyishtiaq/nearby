@@ -1,0 +1,29 @@
+.formGroup {
+  padding-inline: 0.5rem;
+  margin-block: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+}
+
+.formGroup > label {
+  position: absolute;
+  transform: translateY(-50%);
+  padding-inline: 0.5rem;
+  font-size: var(--d4-font-size);
+  font-weight: var(--weight-700);
+  color: var(--title-color);
+  background-color: var(--container-color);
+}
+
+.formGroup > input {
+  position: relative;
+  width: calc(100% - 40px);
+  height: 35px;
+  border: none;
+  padding-inline: 0.5rem;
+  margin: 10px 5px;
+}
+
+.formGroup > input::placeholder {
+  color: var(--text-color-light1);
+}

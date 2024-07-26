@@ -1,0 +1,67 @@
+.parentDiv {
+  margin-inline: auto;
+  padding: 5rem 3rem;
+  background-color: var(--first-color-light);
+}
+
+.intership__box {
+  max-width: var(--max-width);
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 3rem;
+  background-color: var(--border-color-light);
+  border-radius: 1rem;
+}
+
+.intership__box::before,
+.intership__box::after {
+  content: url(/img/faq/faq-img.svg);
+  transform: translateY(25px);
+}
+
+.intership__box::after {
+  transform: translateY(-25px) rotate(180deg);
+}
+
+.intership__content {
+  width: 100%;
+  margin-inline: 5%;
+}
+
+.intership__content > div > a {
+  margin: auto;
+}
+
+.intership__description {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-inline: 5rem;
+  font-size: var(--d1-font-size);
+}
+
+/* ################################### RESPONSIVE ################################### */
+@media screen and (max-width: 1200px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1200 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .intership__content h2,
+  .intership__description {
+    padding-inline: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    padding-inline: 1rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 576 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .intership__box::before,
+  .intership__box::after {
+    display: none;
+  }
+}

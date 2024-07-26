@@ -1,0 +1,7 @@
+.termsOfServiceText {
+  font-size: var(--d1-font-size);
+}
+
+.termsOfServiceText > p > span {
+  color: var(--green-color);
+}

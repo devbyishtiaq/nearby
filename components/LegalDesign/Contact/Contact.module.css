@@ -1,0 +1,100 @@
+.parentDiv {
+  max-width: var(--max-width);
+  display: grid;
+  grid-template-columns: repeat(1, 3fr 4fr);
+  margin-inline: auto;
+  padding-block: 5rem;
+  gap: 2rem;
+}
+
+.contact__container > span:first-child,
+.contact__desc {
+  font-size: var(--d2-font-size);
+}
+
+.contact__title {
+  margin-block: 1rem;
+}
+
+.contact__container > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.contact__container > div:last-child {
+  padding-block-start: 2rem;
+}
+
+.contact__container input {
+  font-size: var(--d4-font-size);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.contact__container input::placeholder {
+  color: var(--title-color);
+}
+
+.form__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+  margin-block: 1rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-bottom: 1px solid var(--title-color);
+}
+
+/* ################################### RESPONSIVE ################################### */
+/* ---------- BREAKPOINTS ---------- */
+/* For large devices */
+@media screen and (max-width: 1400px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1400 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 1200px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1200 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .form__content {
+    padding-inline: 0.5rem;
+    padding-block: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 992 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .contact__container > div:nth-child(2) {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .parentDiv {
+    padding-inline: 1rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 576 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 450px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 450 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}

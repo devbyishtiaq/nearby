@@ -1,0 +1,57 @@
+.title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 24px;
+}
+
+.para {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #536c73;
+  line-height: 20px;
+}
+
+.saveIcon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.cancelBtn {
+  width: 100px;
+  height: 42px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 22px;
+  border-radius: 30px;
+  color: #324a51 !important;
+  background: transparent !important;
+  border: 1px solid #f4f4f4 !important;
+}
+
+.cancelBtn:hover {
+  color: #324a51;
+  background: transparent;
+  border: 1px solid #f4f4f4;
+}
+
+.actionBtn {
+  width: 120px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  border-radius: 30px;
+  color: #ffffff !important;
+  background: #339f5e !important;
+  border: 1px solid #339f5e !important;
+}

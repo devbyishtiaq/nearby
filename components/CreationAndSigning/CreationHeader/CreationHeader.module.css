@@ -1,0 +1,21 @@
+.container{
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+}
+.documentLink{
+    width: 504px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-right: 30px;
+    background: rgba(51, 159, 94, 0.08);
+    border-radius: 8px;
+}
+.documentLink img{
+    margin-right: 20px;
+}
+.documentLink span{
+    color: #111111;
+}

@@ -1,0 +1,66 @@
+.parentDiv {
+  padding-block: 10rem 20rem;
+  align-content: center;
+  padding-inline: 7.5% 20%;
+  min-height: 60rem;
+  margin-top: 10vh;
+}
+
+.login__title,
+.userTypeSelection,
+.parentDiv > p {
+  text-align: center;
+}
+
+.login__title > p:first-child {
+  font-size: var(--h4-font-size);
+  font-weight: var(--weight-700);
+}
+
+.login__title > p:last-child {
+  font-size: var(--d1-font-size);
+  font-weight: var(--weight-400);
+}
+
+.tab__list {
+  display: flex;
+  width: 18rem;
+  margin: auto;
+}
+
+.parentDiv > p {
+  padding-block-start: 1rem;
+  font-size: var(--h5-font-size);
+  font-weight: var(--weight-700);
+}
+
+.forgotPasswordText {
+  font-size: var(--d3-font-size);
+  color: var(--green-color);
+  padding-inline-start: 1rem;
+}
+
+.login__check {
+  padding-block-start: 2rem;
+  text-align: center;
+}
+
+.forgot__container form,
+.forgot__container .login__check {
+  padding-block-start: 1rem;
+}
+
+/* ################################### RESPONSIVE ################################### */
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    padding-inline: 1rem;
+  }
+}
+.buttonStyle {
+    padding: 0.75rem 2rem;
+    border-radius: 10rem;
+    color: white;
+    background: var(--green-color);
+    font-weight: var(--weight-500);
+}

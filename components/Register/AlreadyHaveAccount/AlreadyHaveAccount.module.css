@@ -1,0 +1,10 @@
+.haveAccountText {
+  margin-block-start: 1rem;
+  font-size: calc(var(--d4-font-size) * 0.9);
+}
+
+.haveAccountText > p > a {
+  font-weight: var(--weight-500);
+  color: var(--green-color);
+  text-decoration: underline;
+}

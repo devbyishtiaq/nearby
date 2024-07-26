@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.headerText{
+    width: 250px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.inputGroup{
+    width: 300px;
+    margin-left: auto;
+}
+.inputIcon{
+    background-color: white;
+    color: #768F97;
+}
+.input{
+    border-left: none;
+    font-size: 12px;
+    color: #768F97;
+}
+.searchButton{
+    margin-left: 15px;
+}
+.buttonStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 16px;
+    gap: 8px;
+    background: #339F5E;
+    border-radius: 90px;
+}

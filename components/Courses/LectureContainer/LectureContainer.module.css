@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    padding: 20px;
+}
+.dateText{
+    color: #339F5E;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.courseHeaderStyle{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.courseDescStyle{
+    color: #536C73;
+    font-size: 12px;
+}
+.tagsContainer{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.tagButton{
+    background-color: #F8F9FC;
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+.activeLecture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+
+    width: 234px;
+    height: 44px;
+
+    background: rgba(51, 159, 94, 0.08);
+    border-radius: 8px;
+}
+.deactiveLecture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+
+    width: 234px;
+    height: 44px;
+
+    border-radius: 8px;
+}

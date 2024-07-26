@@ -1,0 +1,56 @@
+/* Horizontal ruler */
+.horizontal {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+}
+
+.horizontal .tick {
+  width: 1px;
+  height: 5px;
+  margin-right: 9px;
+  position: relative;
+  background-color: #111111;
+}
+
+.horizontal .bigTick {
+  height: 8px;
+}
+
+.horizontal .tickLabel {
+  top: -18px;
+  left: -3px;
+  z-index: 1;
+  font-size: 12px;
+  color: #111111;
+  position: absolute;
+}
+
+/* Vertical ruler */
+.vertical {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.vertical .tick {
+  width: 5px;
+  height: 1px;
+  margin-bottom: 9px;
+  position: relative;
+  background-color: #111111;
+}
+
+.vertical .bigTick {
+  width: 8px;
+}
+
+.vertical .tickLabel {
+  top: -10px;
+  left: -12px;
+  z-index: 1;
+  font-size: 12px;
+  color: #111111;
+  position: absolute;
+}

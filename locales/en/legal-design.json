@@ -1,0 +1,28 @@
+{
+  "legal__design__title1": "Legal Design",
+  "legal__design__title2": " is a way of designing legal documents",
+  "legal__description": "While working on a case, we should always try to ensure that our documents incorporate all three aspects of Legal Design:",
+  "legal__description1": "Unrivaled Legal Craftsmanship",
+  "legal__description2": "Clear and concise language",
+  "legal__description3": "Easy-to-understand and enjoyable presentation",
+
+  "leave__request": "Leave a Request",
+  "legal__button1": "Develop Legal Design",
+  "legal__button2": "Generate a text/document into an infographic",
+
+  "legal__whereToUse__title": "Where to use Legal Design?",
+  "legal__whereToUse__tab1": "Procedural Documents",
+  "legal__whereToUse__tab2": "Agreement of Intent",
+  "legal__whereToUse__tab3": "Treaties",
+  "legal__whereToUse__tab4": "Legal Conclusions",
+
+  "legal__contact__small": "Contact Us for Legal Design",
+  "legal__contact__title": "Leave a Request",
+  "legal__contact__description": "We are ready to help you create an efficient and attractive legal arrangement for your project. Please fill out the following information:",
+
+  "legal__placeholder__name": "Name",
+  "legal__placeholder__email": "Email",
+  "legal__placeholder__phone": "Phone",
+  "legal__placeholder__comment": "Comment",
+  "submit": "Submit"
+}

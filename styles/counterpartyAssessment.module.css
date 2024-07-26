@@ -1,0 +1,11 @@
+.parentDiv {
+  max-width: var(--max-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-block-start: 10rem;
+}
+.pleaseWaitText{
+    color : #36d7b7
+}

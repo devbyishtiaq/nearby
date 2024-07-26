@@ -1,0 +1,39 @@
+.img__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/img/register/dots.svg),
+    linear-gradient(to bottom, #111111 -25%, #339f5e 175%);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top calc(var(--header-height) + 2.25rem) right;
+  background-color: var(--black);
+}
+
+.pc__image {
+  margin-block: auto;
+  transform: translateX(-25%);
+}
+
+@media screen and (max-width: 750px) {
+  .img__container {
+    display: none;
+  }
+}
+
+/* ################################### RESPONSIVE ################################### */
+@media screen and (max-width: 992px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 992 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .img__container {
+    background-position: top calc(var(--header-height) + 1rem) right;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .img__container {
+    display: none;
+  }
+}

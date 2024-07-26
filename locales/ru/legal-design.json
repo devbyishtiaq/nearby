@@ -1,0 +1,28 @@
+{
+  "legal__design__title1": "Legal Design",
+  "legal__design__title2": " это способ оформление юридических документов",
+  "legal__description": "Работая над делом, мы всегда должны стремиться к тому, чтобы наши документы включали в себя все три аспекта Legal Design:",
+  "legal__description1": "Непревзойденное юридическое мастерство",
+  "legal__description2": "Четкий и лаконичный язык",
+  "legal__description3": "Легкая для понимания и приятная презентация",
+
+  "leave__request": "Оставить заявку",
+  "legal__button1": "Разработать Legal Design",
+  "legal__button2": "Сгенерировать текст/документ в  инфографику",
+
+  "legal__whereToUse__title": "Где использовать Legal Design?",
+  "legal__whereToUse__tab1": "Процессуальные документы",
+  "legal__whereToUse__tab2": "Соглашение о намерениях",
+  "legal__whereToUse__tab3": "Договоры",
+  "legal__whereToUse__tab4": "Юридические заключения",
+
+  "legal__contact__small": "Свяжитесь с нами  для Legal Design",
+  "legal__contact__title": "Оставить заявку",
+  "legal__contact__description": "Мы готовы помочь вам создать эффективное и привлекательное юридическое оформление для вашего проекта. Пожалуйста, заполните следующую информацию:",
+
+  "legal__placeholder__name": "Имя",
+  "legal__placeholder__email": "Электронная почта",
+  "legal__placeholder__phone": "Номер телефона",
+  "legal__placeholder__comment": "Сообщение",
+  "submit": "Отправить"
+}

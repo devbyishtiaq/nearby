@@ -1,0 +1,90 @@
+.parentDiv {
+  max-width: var(--max-width);
+  display: grid;
+  grid-template-columns: repeat(1, 4fr 3fr);
+  margin-inline: auto;
+  padding-block: 5rem;
+  gap: 2rem;
+}
+
+.benefits__container {
+  padding-inline: 5%;
+}
+
+.benefits__container:last-child {
+  padding: 2rem;
+  box-shadow: 0 5px 30px hsla(0, 0%, 0%, 0.1);
+  border-radius: 1rem;
+}
+
+.benefits__container input {
+  margin-block: 1.5rem;
+  padding-block: 1rem;
+  border-radius: 0.5rem;
+  font-size: var(--d2-font-size);
+}
+
+.benefits__container div:last-child {
+  padding-top: 1rem;
+}
+
+.benefits__container input::placeholder {
+  color: var(--title-color-light);
+}
+
+.benefits__table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  padding-inline: 1.5rem;
+  font-size: var(--h5-font-size);
+  font-weight: var(--weight-600);
+}
+
+.benefits__table li {
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.benefits__table li::before {
+  position: absolute;
+  content: url(/img/roadmap/roadmap-list-icon.svg);
+  transform: translate(-1.75rem, 0.15rem);
+}
+
+/* ################################### RESPONSIVE ################################### */
+/* ---------- BREAKPOINTS ---------- */
+/* For large devices */
+@media screen and (max-width: 1400px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1400 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 1200px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1200 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 992 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 576 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 450px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 450 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}

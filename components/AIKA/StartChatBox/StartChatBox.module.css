@@ -1,0 +1,17 @@
+.container{
+    margin-top: 10%;
+}
+.aikaStartChat{
+    margin-left: 30%;
+    margin-top: 15%;
+    width: 350px;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.aikaLogoContainer{
+    margin-left: 50%;
+    margin-bottom: 100px;
+}

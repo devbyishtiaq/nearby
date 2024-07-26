@@ -1,0 +1,85 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.nav__container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.nav__container > button {
+  padding: 0.75rem 1.5rem;
+  font-size: calc(var(--d1-font-size) * 1.1);
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.activeButton {
+  font-weight: var(--weight-700);
+  background: var(--green-light, #339f5e14);
+  color: var(--green-color);
+}
+
+.form__search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form__input {
+    width: 250px;
+    margin: 5px;
+}
+
+.form__input > svg {
+  cursor: pointer;
+}
+
+.form__button {
+  font-size: var(--h5-font-size);
+  font-weight: var(--weight-700);
+}
+
+/* ################################### RESPONSIVE ################################### */
+/* ---------- BREAKPOINTS ---------- */
+/* For large devices */
+@media screen and (max-width: 1400px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1400 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 1200px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1200 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .form__container {
+    padding-inline: 1rem;
+  }
+  .nav__container {
+    justify-content: center;
+  }
+
+  .form__search {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 992 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 576 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 450px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 450 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}

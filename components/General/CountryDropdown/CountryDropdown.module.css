@@ -1,0 +1,20 @@
+.dropdownButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #EFEFEF;
+    width: 96%;
+    padding: 8px 10px;
+}
+.dropdownButton svg{
+    margin-left: auto;
+}
+.flag{
+    width: 2em;
+    height: 2em;
+    border-radius: 10px;
+    margin-right: 5px;
+}

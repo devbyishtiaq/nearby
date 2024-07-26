@@ -1,0 +1,28 @@
+.container {
+  margin: 15px;
+  padding: 20px;
+  background-color: white;
+}
+
+.uploadBtn {
+  gap: 8px;
+  padding: 9px;
+  color: #fff;
+  display: flex;
+  border-radius: 25px;
+  align-items: center;
+  background: #339f5e;
+}
+
+.madeDocumentEditor {
+  padding: 24px 12px;
+  border-radius: 8px;
+  background: #339f5e14;
+}
+
+.toggleBtn {
+  color: #536c73;
+  padding: 9px 12px;
+  background: #fff;
+  border-radius: 8px;
+}

@@ -1,0 +1,79 @@
+.parentContainer {
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.headerText {
+  width: 250px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.inputGroup {
+  width: 300px;
+  margin-left: auto;
+}
+.inputIcon {
+  background-color: white;
+  color: #768f97;
+}
+.input {
+  border-left: none;
+  font-size: 12px;
+  color: #768f97;
+}
+.searchButton {
+  margin-right: 50px;
+  margin-left: 15px;
+}
+.articleDescription {
+  font-size: 12px;
+  color: #536c73;
+  text-align: justify;
+}
+.articleContent {
+  font-size: 14px;
+}
+.articleContent * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  white-space: normal;
+  text-align: justify;
+}
+.searchButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 8px;
+    width: 45px;
+    height: 40px;
+    margin-left: 10px;
+    background: rgba(51, 159, 94, 0.08);
+    border-radius: 8px;
+}
+.searchResultNavigators{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    z-index: 100000;
+}
+.navigatorButtons{
+    margin-left: auto;
+    color: black;
+}
+.searchResultNavigators button{
+    margin-right: 10px;
+}

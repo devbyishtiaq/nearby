@@ -1,0 +1,92 @@
+.parentDiv {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding: 0.5rem;
+  padding-block: 3rem 5rem;
+  text-align: center;
+}
+
+.parentDiv > h2:first-child > span > span {
+  color: var(--green-color);
+}
+
+.parentDiv > p {
+  padding-inline: 5rem;
+}
+
+.eventsCalendar__container {
+  grid-template-columns: repeat(3, 1fr);
+  padding-block: 2rem 4rem;
+  text-align: left;
+}
+
+.eventsCalendar__title {
+  font-size: calc(var(--h5-font-size) * 0.9);
+  font-weight: var(--weight-700);
+  margin: 0;
+}
+
+.eventsCalendar__description {
+  padding-block: 1rem;
+  line-height: 1.5;
+  color: var(--text-color-light1);
+  font-size: var(--d4-font-size);
+}
+
+.eventsCalendar__item {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background: var(--white);
+  box-shadow: 0 3px 9px hsla(0, 0%, 0%, 0.05);
+}
+
+.eventsCalendar__img {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.eventsCalendar__item > span {
+  font-weight: 700;
+  font-size: var(--d1-font-size);
+}
+
+.eventsCalendar__item > span:hover {
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.eventsCalendar__item > span::before {
+  content: url(/img/legal-lab/eventsCalendar-arrow.svg);
+  margin-inline: 0.5rem 1rem;
+}
+
+.eventsCalendar__btn {
+  display: flex;
+  align-items: center;
+  padding-block: 0.75rem;
+}
+
+.eventsCalendar__btn a {
+  padding-block: 0.25rem;
+  font-size: calc(var(--d4-font-size) * 0.9);
+  font-weight: var(--weight-700);
+  color: var(--first-color);
+}
+
+.eventsCalendar__btn span::before {
+  display: inline-block;
+  margin-bottom: 4px;
+  content: "";
+  height: 1px;
+  width: 30px;
+  margin-inline: 12px;
+}
+
+/* ################################### RESPONSIVE ################################### */
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .eventsCalendar__container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-block: 2rem 3rem;
+  }
+}

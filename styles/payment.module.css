@@ -1,0 +1,30 @@
+.parentDiv {
+  min-height: 100vh;
+  padding-block-start: 10rem;
+}
+
+.parentDiv,
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content {
+  align-items: center;
+  gap: 3rem;
+  padding-block-start: 5rem;
+}
+
+.content img {
+  width: 10rem;
+}
+
+.message h1 {
+  font-size: var(--big-font-size);
+  margin-block-end: 1.5rem;
+}
+
+.message p {
+  font-size: var(--h5-font-size);
+}

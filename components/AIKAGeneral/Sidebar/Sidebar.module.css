@@ -1,0 +1,70 @@
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px 0 0 30px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.navContainer:not(.activeNav) span:not(.emailText) {
+    color: #536C73;
+    font-size: 12px;
+}
+.navContainer{
+    display: flex;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.navContainer img{
+    margin-right: 10px;
+}
+.activeNav{
+    font-size: 12px;
+    background-color: #111111;
+}
+.activeNav span{
+    color: white;
+}
+.activeNav img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+.nearbyLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 18px;
+    color: white;
+    margin-right: 10px;
+    background: #339F5E;
+    border-radius: 50%;
+}
+.profileImageWithImage{
+    color: white;
+    margin-right: 10px;
+}
+.profileImageWithImage img{
+    border-radius: 50px;
+}
+.emailText{
+    color: #536C73;
+    font-size: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        background-color: white;
+        padding: 20px;
+        border-radius: 30px 0 0 30px;
+        position: absolute;
+        z-index: 10000;
+        width: 50%;
+    }
+}

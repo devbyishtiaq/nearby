@@ -1,0 +1,21 @@
+.accordionButton button{
+    background: rgba(51, 159, 94, 0.08);
+    border-radius: 0px 8px 8px 8px;
+}
+.loadingText{
+    font-size: 18px;
+    margin: 30px 0;
+    animation: fadeInOut 1s infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.smallText{
+    font-size: 12px;
+}

@@ -1,0 +1,38 @@
+.container {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.successColor {
+  background: #339f5e;
+}
+
+.warningColor {
+  background: #ffbf28;
+}
+
+.dangerColor {
+  background: #e71b1b;
+}
+
+.bigContainer {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  position: relative;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  outline: 4px solid #339f5e14;
+}
+
+.container img {
+  position: absolute;
+  top: calc(50% - 6px / 2);
+  left: calc(50% - 9px / 2 + 0.5px);
+}

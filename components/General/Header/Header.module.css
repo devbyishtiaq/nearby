@@ -1,0 +1,230 @@
+/* ####################################################### */
+/* ---------- HEADER & NAV ---------- */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--body-color);
+  box-shadow: 0 3px 9px hsla(0, 0%, 0%, 0.05);
+  z-index: 100;
+  padding-inline: 1rem;
+}
+
+.nav,
+.nav__list,
+.locale__container,
+.locale__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: auto;
+  font-size: var(--nav-font-size);
+  text-align: center;
+  list-style-type: none;
+  column-gap: 0.5rem;
+
+  #nav__toggler {
+    display: none;
+  }
+}
+
+.locale__box {
+  margin-inline-end: 2rem;
+}
+
+.locale__box > img:first-child {
+  height: 35px;
+}
+
+/* ---------- STYLE SWITCHER ---------- */
+.nav > input[type="checkbox"] {
+  display: none;
+}
+
+.btn__nav {
+  padding: 0.5rem;
+}
+
+.nav {
+  height: calc(var(--header-height) + 2.25rem);
+}
+
+.nav__container {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  fill: var(--first-color);
+}
+
+.nav__toggle,
+.nav__toggle {
+  display: none;
+  /*margin: auto;*/
+}
+
+.nav__logo {
+  max-height: 3rem;
+  transition: filter 0.3s;
+}
+
+.nav__logo:hover {
+  filter: var(--nav-logo);
+}
+
+.nav__list {
+  column-gap: 1.25rem;
+  padding-inline: 1rem;
+  margin-inline: 0;
+}
+
+.nav__link {
+  color: var(--title-color);
+  transition: all 0.3s;
+
+  /* Active link */
+  &:hover {
+    color: var(--first-color);
+    font-weight: bold;
+  }
+}
+
+.locale__switcher {
+  border: none;
+  font-size: var(--locale-font-size);
+  margin: 0.5rem;
+}
+
+.locale__switcher,
+.locale__option {
+  padding: 0.5rem;
+}
+
+/* ################################### RESPONSIVE ################################### */
+/* ---------- BREAKPOINTS ---------- */
+/* For large devices */
+@media screen and (max-width: 1400px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1400 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .nav,
+  .nav__list {
+    column-gap: 1rem;
+  }
+
+  .nav__container {
+    max-width: 100%;
+  }
+
+  .nav__list {
+    column-gap: 1rem;
+    padding-inline: 0.25rem;
+    /*margin-inline-end: 2.5rem;*/
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1200 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .nav__logo {
+    max-height: 2rem;
+  }
+
+  .nav__list {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 992 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .nav {
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .logo__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav__list {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    row-gap: 0.75rem;
+    padding: 0;
+    max-width: 100%;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    box-shadow: 0 3px 9px hsla(0, 0%, 0%, 0.05);
+    background-color: var(--body-color);
+    transition: all 0.3s;
+  }
+
+  .nav__toggle,
+  .nav__toggle {
+    display: block;
+    color: var(--text-color);
+  }
+
+  .nav__toggle:hover {
+    color: var(--first-color);
+    cursor: pointer;
+  }
+
+  #nav__toggler:checked ~ .nav__list {
+    max-height: 500px;
+    padding: 1.75rem;
+  }
+
+  #nav__toggler {
+    display: none;
+  }
+
+  .nav__toggle {
+    position: relative;
+    cursor: pointer;
+    width: 2rem;
+    height: 1.6rem;
+    left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .nav__toggle > div {
+    height: 3px;
+    border-radius: 5rem;
+    background-color: var(--green-color);
+    transition: 0.5s;
+    z-index: 999;
+  }
+
+  #nav__toggler:checked ~ .logo__container .nav__toggle > div {
+    background-color: var(--first-color-dark);
+  }
+
+  #nav__toggler:checked ~ .logo__container .nav__toggle > div:first-child {
+    transform: translateY(0.675rem) rotate(45deg);
+  }
+  #nav__toggler:checked ~ .logo__container .nav__toggle > div:nth-child(2) {
+    opacity: 0;
+  }
+  #nav__toggler:checked ~ .logo__container .nav__toggle > div:last-child {
+    transform: translateY(-0.675rem) rotate(-45deg);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 450 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .locale__box img {
+    display: none;
+  }
+
+  .locale__box,
+  .locale__switcher {
+    margin-inline: 0;
+  }
+}

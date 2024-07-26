@@ -1,0 +1,32 @@
+import { NextApiRequest, NextApiResponse } from "next";
+
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+    const apiUrl = `${process.env.BASE_URL}/v1/legislation/government-response-filter/`;
+    const userInput = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
+    console.log(userInput)
+
+    try {
+        const myHeaders = new Headers();
+        myHeaders.append("Authorization", `Token ${userInput.token}`);
+
+        const formdata = new FormData();
+        formdata.append("keyword", userInput.searchKeyword);
+        formdata.append("page", userInput.activePage);
+
+        const requestOptions: any = {
+            method: "POST",
+            headers: myHeaders,
+            body: formdata,
+            redirect: "follow"
+        };
+        
+        const response = await fetch(apiUrl, requestOptions)
+        const responseText = await response.text();
+        const responseJson = JSON.parse(responseText);
+        console.log(responseJson)
+        res.status(200).json(responseJson);
+
+    } catch (error: any) {
+        res.status(500).json({ message: error.message });
+    }
+  }

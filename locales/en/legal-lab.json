@@ -1,0 +1,43 @@
+{
+  "whatis__title": "What is <span>Legal Lab</span>?",
+  "whatis__description": "A non-profit scientific research organization active in the field of digital law, where research, education, expert opinion and legislative deliberations interact to contribute significantly to the development of this rapidly changing field",
+
+  "whatwedo__title": "What we do?",
+  "whatwedo__description": "Preparation of expert opinion in following domains which includes comprehensive and peer reviews.Cutting-edge academic research in the fields of Digital Assets, Legal Tech, AI and Digital Law, helping to understand and overcome the legal complexities of the digital age.",
+  "whatwedo__subtitle1": "Civil Cases",
+  "whatwedo__content1": "Preparation of expert opinions in civil cases",
+  "whatwedo__subtitle2": "Criminal Cases",
+  "whatwedo__content2": "Preparation of expert opinions in criminal cases",
+  "whatwedo__button": "Google Form",
+
+  "benefits__title": "Benefits",
+  "benefits__list1": "Constant updating of the program",
+  "benefits__list2": "Quality assurance",
+  "benefits__list3": "Community",
+  "benefits__list4": "Practicum",
+  "benefits__list5": "Issuance of certificates from the Republican Scientific Research Institute, and an international partner in the USA and England",
+
+  "form__title": "Fill in the form below",
+  "fullname": "Full Name",
+  "number": "Number",
+  "email": "Email",
+  "submit": "Submit",
+
+  "internship__title": "Scientific internships for master's and doctoral students.",
+  "intership__description": "Round tables on improving legislation, providing a platform for discussing problematic legal issues",
+
+  "events__title": "Events Calendar <span>Legal Lab</span>",
+  "events__description": "See the schedule and venue of all the events which are happening in coming months and get to know advance domains and topics like Legal regulation of real estate activity, Legal regulation of artificial intelligence, and Legal Regulation of Digital Assets",
+  "events__calendar1": "Sep, 2023",
+  "events__calendar2": "Oct, 2023",
+  "events__calendar3": "Nov, 2023",
+  "events__calendar__title1": "Legal regulation of real estate activity",
+  "events__calendar__title2": "Legal regulation of artificial intelligence",
+  "events__calendar__title3": "Legal Regulation of Digital Assets",
+  "events__calendar__description1": "Round table on the topic: 'Legal regulation of real estate activity in Kazakhstan'",
+  "events__calendar__description2": "Round table on the topic: 'Legal regulation of artificial intelligence in Kazakhstan'",
+  "events__calendar__description3": "Conference on said topic in Kazakhstan' First edition of the journal 'Digital Law Bulletin'",
+  "kazakhstan": "Kazakhstan",
+  "events__button": "View All Events",
+  "meeting_link": "Click to join"
+}

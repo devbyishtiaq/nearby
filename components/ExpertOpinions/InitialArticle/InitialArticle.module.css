@@ -1,0 +1,77 @@
+.parentDiv {
+  max-width: var(--max-width);
+  display: grid;
+  grid-template-columns: repeat(1, 5fr 3fr);
+  margin-inline: auto;
+  padding-left: 30px;
+  margin-block-start: calc(var(--header-height) + 2.25rem);
+  padding-block: 5rem;
+  gap: 3rem;
+  line-height: 2.5rem
+}
+
+.initial__title {
+  padding-block: 1rem;
+  font-size: calc(var(--h2-font-size) * 0.9);
+}
+
+.initial__container {
+  padding-inline: 1rem;
+}
+
+.initial__content {
+  margin-block-end: 2rem;
+}
+
+.initial__content > p {
+  font-size: calc(var(--d1-font-size) * 1.15);
+}
+
+.initial__imgWrapper {
+  text-align: center;
+}
+
+.initial__imgWrapper img {
+  width: 100%;
+  border-radius: 1rem;
+  background-size: cover;
+}
+
+.initial__imgWrapper h3 {
+  margin-block: 1.5rem;
+  padding-inline: 1rem;
+}
+
+/* ################################### RESPONSIVE ################################### */
+/* ---------- BREAKPOINTS ---------- */
+@media screen and (max-width: 1200px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1200 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    gap: 1rem;
+  }
+
+  .initial__content > p {
+    font-size: var(--d1-font-size);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 992 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 576 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 450px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 450 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}

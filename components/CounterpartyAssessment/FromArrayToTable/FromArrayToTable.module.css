@@ -1,0 +1,7 @@
+.tableArray{
+    overflow-x: scroll;
+    width: auto;
+    max-width: 500px;
+    display: flow;
+    font-size: 12px;
+}

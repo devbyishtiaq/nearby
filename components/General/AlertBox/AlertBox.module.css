@@ -1,0 +1,28 @@
+.parentDiv {
+  width: 50vw;
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
+}
+.successText {
+  color: #339e5e;
+  margin-left: 20px;
+}
+.dangerText {
+  color: #dc3545;
+  margin-left: 20px;
+}
+.alertContainer {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: fixed;
+  top: 35%;
+  left: 20%;
+  text-align: center;
+  z-index: 100000;
+}
+.alertMessage {
+  font-size: 14px;
+}

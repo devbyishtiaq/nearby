@@ -1,0 +1,30 @@
+.parentDiv {
+  min-height: 100vh;
+  padding-block-start: 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image__404 {
+  height: 20rem;
+  background-image: url(/img/general/404.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-block-end: 5rem;
+}
+
+.container__404 > p {
+  font-size: calc(var(--d1-font-size) * 1.25);
+  font-weight: var(--weight-500);
+  padding-block: 1rem 3rem;
+}
+
+.container__404 > button {
+  padding-block: 1rem;
+}
+
+.container__404 > button > svg {
+  margin-inline-end: 1rem;
+}

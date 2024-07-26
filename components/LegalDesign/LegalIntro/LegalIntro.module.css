@@ -1,0 +1,115 @@
+.parentDiv {
+  padding-block-start: calc(var(--header-height) * 3);
+}
+
+.legal__intro__container {
+  max-width: var(--max-width);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin: auto;
+  padding-inline: 1rem;
+}
+
+.legal__intro__content {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.btn__container {
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 3rem;
+  margin-block-start: 5rem;
+  padding-inline: 3rem;
+}
+
+.btn__container > button {
+  border-radius: 0.75rem;
+  width: 25rem;
+  height: 7.5rem;
+  font-size: var(--h5-font-size);
+  font-weight: var(--weight-700);
+}
+
+.legal__intro__content > h1 {
+  font-size: var(--big-font-size);
+  margin-block-end: 2rem;
+}
+
+.legal__intro__content > h1 > span {
+  color: var(--green-color);
+}
+
+.legal__intro__content > p {
+  font-size: var(--h5-font-size);
+  font-weight: var(--weight-700);
+}
+
+.legal__intro__content > ul {
+  padding-block-end: 2rem;
+}
+
+/* ################################### RESPONSIVE ################################### */
+/* ---------- BREAKPOINTS ---------- */
+/* For large devices */
+@media screen and (max-width: 1400px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1400 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 1200px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 1200 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .parentDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 992 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .legal__intro__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .btn__container {
+    gap: 1rem;
+    padding-inline: 1rem;
+  }
+
+  .btn__container > button {
+    width: 100%;
+    height: 5rem;
+    font-size: calc(var(--d1-font-size) * 1.1);
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 768 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .btn__container > button {
+    font-size: var(--d1-font-size);
+    padding: 1rem;
+  }
+
+  .legal__intro__content > p {
+    font-size: var(--d1-font-size);
+    font-weight: var(--weight-700);
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 576 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+
+@media screen and (max-width: 450px) {
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE 450 px <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  .btn__container {
+    flex-direction: column;
+    padding-inline: 1rem;
+  }
+}
